@@ -12,7 +12,7 @@ public class Employee {
         int monthly_hours = 0;
         int total_working_days = 1;
 
-        for(int i = 0; i < 21; i++){
+        while (monthly_hours <=100 || total_working_days <=20){
             int random = (int) Math.floor(Math.random() * 10) % 3;
             switch (random) {
 
